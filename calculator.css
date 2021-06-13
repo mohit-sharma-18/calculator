@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    background-color: rgb(62, 88, 105);
+    min-height: 100vh;
+    
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 1px 3px 3px .10px rgb(46, 46, 46);
+    outline: none;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+.btn:focus{
+    box-shadow: 1px 3px 3px .10px rgb(46, 46, 46);
+} 
+
+input{
+    width: 95%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.main{
+    background-color: rgb(221, 221, 221);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px ;
+    margin: 20px 0px;
+    box-shadow: 1px 3px 10px 1px rgb(46, 46, 46);
+    border: 2px solid rgb(39, 39, 39);
+}
+
+.btn{
+    border-radius: .5rem;
+    outline: none;
+}
+
+h3{
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 10px 0px;
+}
+h5{
+    font-family: 'Courgette', cursive;
+}
+
+
+@media screen and (max-width: 576px) {
+    .section{
+        width: 137%;
+        
+    }
+}
+
