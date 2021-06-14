@@ -3,11 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.section{
-    background-color: rgb(62, 88, 105);
+body{
     min-height: 100vh;
-    
+    background-color: rgb(62, 88, 105);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-color: rgb(221, 221, 221);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px ;
+    margin: 20px 0px;
+    box-shadow: 1px 3px 10px 1px rgb(46, 46, 46);
+    border: 2px solid rgb(39, 39, 39);
+}
+
+input{
+    width: 95%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+
+h3{
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 10px 0px;
+}
+h5{
+    font-family: 'Courgette', cursive;
 }
 
 button{
@@ -22,44 +52,22 @@ button:active {
     transform: scale(0.97);
 }
 
-.btn:focus{
-    box-shadow: 1px 3px 3px .10px rgb(46, 46, 46);
-} 
 
-input{
-    width: 95%;
-    padding: 10px 0px;
-    margin: 10px 0px;
-}
-
-.main{
-    background-color: rgb(221, 221, 221);
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 30px ;
-    margin: 20px 0px;
-    box-shadow: 1px 3px 10px 1px rgb(46, 46, 46);
-    border: 2px solid rgb(39, 39, 39);
-}
-
-.btn{
-    border-radius: .5rem;
-    outline: none;
-}
-
-h3{
-    font-family: 'Do Hyeon', sans-serif;
-    margin: 10px 0px;
-}
-h5{
-    font-family: 'Courgette', cursive;
+.buttons{
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    border: none
 }
 
 
-@media screen and (max-width: 576px) {
-    .section{
-        width: 137%;
-        
+@media screen and (max-width:576px) {
+    .main{
+            margin-top: 10rem;
+            
     }
 }
+
+
+
 
