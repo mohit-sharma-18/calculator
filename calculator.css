@@ -59,11 +59,14 @@ button:active {
     border-radius: 10px;
     border: none
 }
+#screen{
+    font-size: 1.5rem;
+}
 
 
 @media screen and (max-width:576px) {
-    .container{
-            transform: scale(.6);
+    .contain{
+            transform: scale(.7);
             display: flex;
             justify-content: center;
             transition: .5s all ease-in-out;
